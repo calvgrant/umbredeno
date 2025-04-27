@@ -29,6 +29,6 @@ jobs:
             - name: Upload to Deno Deploy
               uses: denoland/deployctl@v1
               with:
-                  project: "umbre-main"
+                  project: "kalrex-umbredeno-47"
                   entrypoint: "main.ts"
                   exclude: .vscode*,dev.ts
